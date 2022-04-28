@@ -17,5 +17,6 @@ sh install.sh
 
 From the project root, run:
 ```
-forge test --fork-url https://mainnet.infura.io/v3/d11feab0709c4aec9bcad8f3e1a49c08 --etherscan-api-key IF59W4SY95W3E6D9XX62R1HVNFBBC5FRQ1
+forge test --fork-url https://mainnet.infura.io/v3/d11feab0709c4aec9bcad8f3e1a49c08 --etherscan-api-key IF59W4SY95W3E6D9XX62R1HVNFBBC5FRQ1 -vvvv
 ```
+
