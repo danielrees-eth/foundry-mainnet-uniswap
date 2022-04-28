@@ -2,7 +2,7 @@
 
 Designing an effective test suite for smart contracts is equal parts art and science. 
 
-Unit tests will often not adequately show the behavior of interactions within the composable DeFi ecosystem. Each external contract interaction requires mock contracts must be designed and deployed. The assumptions made in the mock contracts might create a testing environment which is far removed from the mainnet environment. Furthermore, compiling and deploying these contracts increases the time to run the test suite, which reduces the likelyhood that they will be run frequently. 
+Unit tests will often not adequately show the behavior of interactions within the composable DeFi ecosystem. Each external contract interaction requires mock contracts, which must be designed and deployed. The assumptions made in the mock contracts might create a testing environment which is far removed from the mainnet environment. Furthermore, compiling and deploying these contracts increases the time to run the test suite, which reduces the likelyhood that they will be run frequently. 
 
 In these cases, is useful to test with a mainnet fork. This repo demostrates a mainnet fork test using foundry to executes simple trades on Uniswap.
 
